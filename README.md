@@ -8,7 +8,7 @@ Run:
 npm install  
 npm start  
   
-API runs at http://localhost:3000
+API runs at http://localhost:3000/pets
 
 Test It
 See all pets  
