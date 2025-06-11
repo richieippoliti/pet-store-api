@@ -1,4 +1,4 @@
-Pet Store API
+# Pet Store API
 Simple REST API for managing pets. Built with Node.js and Express.
 How to Run
 
