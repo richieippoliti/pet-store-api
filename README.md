@@ -12,21 +12,3 @@ API runs at http://localhost:3000
 
 Test It
 See all pets  
-curl http://localhost:3000/api/pets
-
-# Adding a pet
-curl -X POST http://localhost:3000/api/pets \
-  -H "Content-Type: application/json" \
-  -d '{"name":"Butters","category":"cat"}'
-
-# Get one pet
-curl http://localhost:3000/api/pets/1
-Endpoints
-
-GET /api/pets - List pets  
-POST /api/pets - Add pet  
-GET /api/pets/:id - Get pet  
-PUT /api/pets/:id - Update pet  
-DELETE /api/pets/:id - Delete pet  
-
-Data resets when server restarts (uses memory, not database).
